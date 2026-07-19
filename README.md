@@ -233,23 +233,23 @@ This section presents the residue-level interaction analysis for each target, co
 - Catalytic residue: **Ser530**
 - **Tyr385** — inhibition here blocks the conversion of arachidonic acid into pro-inflammatory prostaglandins
 
-![reference-5IKR](interaction%20analysis/5IKR/reference.png)
-
 *Reference ligand bound in the COX-2 active site.*
+
+![reference-5IKR](interaction%20analysis/5IKR/reference.png)
 
 The reference ligand forms a hydrogen bond with the key residue Tyr385, an interaction characteristic of COX-2 inhibitors, along with a π-alkyl interaction with the channel entrance residue Tyr355.
 
 Luteolin, the ligand with the highest binding affinity (**-8.099 kcal/mol**), did not form any of the key interactions described above, despite its favorable docking score.
 
-![kaempferol-5IKR](interaction%20analysis/5IKR/kaempferol.png)
-
 *Kaempferol bound in the COX-2 active site.*
+
+![kaempferol-5IKR](interaction%20analysis/5IKR/kaempferol.png)
 
 Kaempferol (**-7.811 kcal/mol**) formed two strong hydrogen bonds with Ser530 and a π-cation interaction with Arg120. Together with more than six additional π-alkyl and amide-π interactions contributing to pose stability, this represents a strong overall binding profile. However, kaempferol did not reproduce the characteristic Tyr385 interaction seen in known inhibitors — it is nonetheless still considered a good candidate.
 
-![isoquercetin-5IKR](interaction%20analysis/5IKR/isoquercetin.png)
-
 *Isoquercetin bound in the COX-2 active site.*
+
+![isoquercetin-5IKR](interaction%20analysis/5IKR/isoquercetin.png)
 
 Isoquercetin (**-7.495 kcal/mol**) formed two hydrogen bonds with the characteristic residue Tyr385, a π-alkyl interaction with Val523, and two π-cation interactions with Arg120, alongside several further stabilizing contacts. It also showed a weak unfavorable acceptor–acceptor interaction with His90 (3.0 Å); given its low strength, this can be safely disregarded, as it is unlikely to meaningfully disrupt the pose.
 
@@ -257,9 +257,9 @@ Isoquercetin (**-7.495 kcal/mol**) formed two hydrogen bonds with the characteri
 
 As MMP-9 is a zinc-dependent metalloproteinase, the key interaction expected of an effective inhibitor is direct metal coordination (chelation) with the catalytic Zn²⁺ ion in the binding pocket — an interaction shown by known inhibitors, including the reference ligand used here.
 
-![reference-6ESM](interaction%20analysis/6ESM/reference.png)
-
 *Reference ligand chelating the catalytic Zn²⁺ ion in the MMP-9 active site.*
+
+![reference-6ESM](interaction%20analysis/6ESM/reference.png)
 
 None of the docked ligands reproduced this metal-coordination interaction. This is consistent with a known limitation of flavonoids as a chemical class: they lack the functional groups — such as hydroxamic acids, thiolates, or thioesters — required to chelate a zinc atom. As a result, none of the ligands selected for this study are predicted to effectively inhibit MMP-9.
 
@@ -273,21 +273,21 @@ With MMP-9 ruled out, the ligands predicted to inhibit COX-2 were next evaluated
 - Stabilizing salt bridge: **Lys745–Glu762**
 - Gatekeeper residue: **Thr790**
 
-![reference-6VHN](interaction%20analysis/6VHN/reference.png)
-
 *Reference inhibitor bound in the EGFR ATP-binding pocket.*
+
+![reference-6VHN](interaction%20analysis/6VHN/reference.png)
 
 The reference inhibitor forms two strong hydrogen bonds with Met793 and a π-alkyl interaction with Lys745, along with numerous additional stabilizing contacts. These are the key interactions associated with EGFR inhibition — and are therefore interactions this study aims to avoid.
 
-![kaempferol-6VHN](interaction%20analysis/6VHN/kaempferol.png)
-
 *Kaempferol bound in the EGFR ATP-binding pocket.*
+
+![kaempferol-6VHN](interaction%20analysis/6VHN/kaempferol.png)
 
 Kaempferol did not form any of the key EGFR interactions. It did form strong hydrogen bonds with a few unrelated residues; while not inherently problematic, this is not ideal, as it could still interfere with normal ligand binding within the pocket.
 
-![isoquercetin-6VHN](interaction%20analysis/6VHN/isoquercetin.png)
-
 *Isoquercetin bound in the EGFR ATP-binding pocket.*
+
+![isoquercetin-6VHN](interaction%20analysis/6VHN/isoquercetin.png)
 
 Isoquercetin formed a hydrogen bond with Met793, which would ordinarily be a concern for selectivity. However, this pose also carries a critical unfavorable donor–donor clash with the stabilizing residue Lys745 (1.79 Å), making this docking pose difficult to achieve in practice. This makes isoquercetin a potential candidate as well.
 
@@ -299,21 +299,21 @@ Isoquercetin formed a hydrogen bond with Met793, which would ordinarily be a con
 - DFG motif: **Asp1046, Phe1047, Gly1048**
 - Gatekeeper residue: **Val916**
 
-![reference-3VO3](interaction%20analysis/3VO3/reference.png)
-
 *Reference inhibitor bound in the VEGFR-2 kinase domain.*
+
+![reference-3VO3](interaction%20analysis/3VO3/reference.png)
 
 The reference inhibitor forms two strong hydrogen bonds with Cys919, along with a hydrogen bond and π-cation interaction with Asp1046, though it also carries a relatively weak unfavorable donor–donor clash (2.3 Å). These are the characteristic interactions this study aims to avoid.
 
-![kaempferol-3VO3](interaction%20analysis/3VO3/kaempferol.png)
-
 *Kaempferol bound in the VEGFR-2 kinase domain.*
+
+![kaempferol-3VO3](interaction%20analysis/3VO3/kaempferol.png)
 
 Kaempferol formed only a single, comparatively weak π-anion interaction with Asp1046, indicating that it could be an ideal candidate.
 
-![isoquercetin-3VO3](interaction%20analysis/3VO3/isoquercetin.png)
-
 *Isoquercetin bound in the VEGFR-2 kinase domain.*
+
+![isoquercetin-3VO3](interaction%20analysis/3VO3/isoquercetin.png)
 
 Isoquercetin formed only a single weak π-π stacking interaction with Phe1047, likewise indicating that it could be an ideal candidate.
 
@@ -345,6 +345,4 @@ Kaempferol showed little favorable interaction with EGFR, which supports its sel
 - **Enzyme inhibition assays** for the identified candidate ligands, to experimentally validate predicted COX-2 inhibition and target selectivity.
 - **Cell-based validation** to confirm functional activity and selectivity in a physiologically relevant system.
 
----
 
-*This README documents the full pipeline from ligand/protein preparation through docking and selectivity analysis, and is intended to help peers reproduce or build on this workflow.*
