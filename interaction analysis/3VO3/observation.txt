@@ -1,0 +1,7 @@
+GOOD LIGAND HERE MEANS LESS INTERACTIONS (PLUS LESS IMPORTANT INTERACTIONS)
+
+imp regions/residues: kinase domain hinge: cys919, DGF motif asp1046 phe1047 gly1048, gatekeeper val916 
+
+querciturone good but one weak pi-pi stacking (5.46 A) with phe1047
+kaempferol good but one weak (5A) pi anion with asp1046
+isoquercetin good but one weak pi-pi stacking (5.41 A) with phe1047

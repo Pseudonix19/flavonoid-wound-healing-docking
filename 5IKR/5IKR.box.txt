@@ -1,0 +1,16 @@
+receptor = 5IKR.pdbqt
+
+center_x = 38.449
+center_y = 1.797
+center_z = 61.125
+
+size_x = 17.792
+size_y = 14.840
+size_z = 18.724
+
+
+exhaustiveness = 32
+num_modes = 9
+energy_range = 3
+cpu = 7
+verbosity = 2

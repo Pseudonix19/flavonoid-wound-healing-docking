@@ -1,0 +1,15 @@
+receptor = 6ESM.pdbqt
+
+center_x = 0.794
+center_y = 50.361
+center_z = 19.921
+size_x = 16.153
+size_y = 22.018
+size_z = 22.934
+
+exhaustiveness = 24
+num_modes = 9
+energy_range = 3
+cpu = 7
+verbosity = 2
+

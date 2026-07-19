@@ -1,0 +1,9 @@
+Inhibition is better
+
+imp residues: channel entrance arg120 and tyr355, channel hydrophobic residues val523, catalytic residue ser530 important, tyr385 blocking inhibits arachidonic acid to inflammatory mols
+
+kaempferol first for two strong ser530 H bond and one pi cation with arg120
+querciturone second tied for two pi cation with arg120 and one pi alkyl with val523 plus 4 H bonds
+isoquercetin second tied due to H bond, pi-alkyl and carbon-hydrogen with val523 and two pi cation with arg120 and two strong H bonds with tyr385 however one unfavourable acceptor-acceptor (3 A)
+quercetin good enough due to two strong H bonds with ser530 (one kinda weak 2.57A)
+luteolin alright one strong H bond with ser530

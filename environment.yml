@@ -1,0 +1,10 @@
+name: docking
+channels:
+  - conda-forge
+dependencies:
+  - meeko
+  - pathlib
+  - pip
+  - python=3.11
+  - rdkit
+  - vina

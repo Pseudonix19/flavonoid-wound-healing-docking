@@ -1,0 +1,7 @@
+GOOD LIGAND HERE MEANS LESS INTERACTIONS (AND LESS ESSENTIAL INTERACTIONS)
+imp residues: hinge region met793, lys745-glu762 salt bridge, gatekeeper thr790
+
+quercitruone makes one H bond with met793 (3 A) but unfavourable donor-donor (2.68 A) and unfavourable acceptor-acceptor (2.7 A) making it not a good inhibitor
+kaempferol shows no key interaction but has 3 strong H bonds not ideal but not bad
+isoquercetin strong H bond with met793 and few interactions with salt bridge atom and critical unfavourable donor donor interaction (1.79 A) with stabilizing lys745
+isoquercetin pose 2 shows no essential interactions and unfavourable acceptor acceptor (2.7 A) at hinge met793

@@ -1,0 +1,15 @@
+receptor = 6VHN.pdbqt
+
+center_x = -51.568
+center_y = 0.776
+center_z = 23.507
+size_x = 16.748
+size_y = 17.989
+size_z = 22.699
+
+
+exhaustiveness = 24
+num_modes = 9
+energy_range = 3
+cpu = 7
+verbosity = 2
