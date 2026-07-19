@@ -321,8 +321,7 @@ With the interaction analysis complete, two promising candidates emerged: **kaem
 
 ## Comparative Discussion
 
-It is noticed that despite Luteolin showing high binding affinity, it is not an ideal inhibitor of COX-2 as it lacks any key residue interactions. This shows us that docking scores are not a proof of inhibition, thus proving the need of interaction based analysis of the docked poses to identify target ligands. This is why in usual docking pipelines, all drug candidates showing a docking score of above a threshold (usually 6.5-7.0 kcal/mol) rather than just analyzing top ligands.
-
+It was noted that despite showing a high binding affinity, Luteolin was not an ideal COX-2 inhibitor, as it lacked any of the key residue interactions described above. This demonstrates that docking score alone is not proof of inhibitory activity, and underscores the need for interaction-based analysis of docked poses to correctly identify candidate ligands. This is also why, in standard docking pipelines, all ligands scoring below a practical threshold (typically around -6.5 to -7.0 kcal/mol) are carried forward for interaction analysis, rather than restricting evaluation to only the top-ranked ligand.
 At the conclusion of the interaction analysis, two good candidates were identified: kaempferol and isoquercetin.
 
 ### Isoquercetin
