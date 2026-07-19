@@ -74,53 +74,6 @@ This is the rationale for the project: to identify flavonoid compounds that **se
 
 All structures were obtained from the [RCSB Protein Data Bank](https://www.rcsb.org/).
 
-## Repository Structure
-
-```
-├── 3VO3/                        # VEGFR-2
-│   ├── docked/
-│   │   └── sdf files/
-│   └── ligands/
-├── 5IKR/                        # COX-2
-│   ├── docked/
-│   │   └── sdf files/
-│   └── ligands/
-├── 6ESM/                        # MMP-9
-│   ├── docked/
-│   │   └── sdf files/
-│   └── ligands/
-├── 6VHN/                        # EGFR
-│   ├── docked/
-│   │   └── sdf files/
-│   └── ligands/
-├── interaction analysis/
-│   ├── 3VO3/
-│   ├── 5IKR/
-│   ├── 6ESM/
-│   └── 6VHN/
-├── ligand processing/
-│   └── raw ligands/
-├── prepared ligands/
-├── protein cleaned/
-├── scripts/
-└── environment.yml
-```
-
-Quick links to each folder:
-
-| Folder | Description |
-|---|---|
-| [`3VO3/`](./3VO3) | Docking inputs/outputs for VEGFR-2 |
-| [`5IKR/`](./5IKR) | Docking inputs/outputs for COX-2 |
-| [`6ESM/`](./6ESM) | Docking inputs/outputs for MMP-9 |
-| [`6VHN/`](./6VHN) | Docking inputs/outputs for EGFR |
-| [`interaction analysis/`](./interaction%20analysis) | Interaction diagrams and residue analysis, organized by target |
-| [`ligand processing/`](./ligand%20processing) | Raw ligand files and processing intermediates |
-| [`prepared ligands/`](./prepared%20ligands) | Final PDBQT ligand files ready for docking |
-| [`protein cleaned/`](./protein%20cleaned) | Solvent- and co-crystal-stripped protein structures |
-| [`scripts/`](./scripts) | Helper Python scripts used throughout the pipeline |
-| [`environment.yml`](./environment.yml) | Micromamba/Conda environment definition |
-
 ## Tools and Software Used
 
 | Tool | Purpose |
@@ -162,7 +115,7 @@ obabel *.sdf -O <flavonoid name>.sdf
 
 ### 4. Ligand Renaming
 
-Compound names inside each merged `.sdf` file were replaced with common names (for easier downstream processing) using [`sdf_molecule_renamer.py`](./scripts):
+Compound names inside each merged `.sdf` file were replaced with common names (for easier downstream processing) using [`sdf_molecule_renamer.py`](./scripts/sdf_molecule_renamer.py):
 
 ```bash
 python scripts/sdf_molecule_renamer.py
