@@ -144,6 +144,7 @@ Each protein was isolated from solvent molecules and co-crystallized ligands usi
 The co-crystallized molecules removed in the previous step were retained as reference inhibitor ligands and processed using the same ligand preparation steps described in [Section 5](#5-ligand-preparation).
 
 The receptor and its corresponding co-crystallized ligand were placed together in a folder named after the target's PDB ID. Proteins were then processed with **UCSF Chimera's DockPrep** tool to add missing hydrogen atoms and partial charges.
+Example folder: ['3VO3'](./3VO3)
 
 ### 9. Protein Preparation for Docking
 
