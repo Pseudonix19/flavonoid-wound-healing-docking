@@ -123,7 +123,7 @@ python scripts/sdf_molecule_renamer.py
 
 ### 5. Ligand Preparation
 
-Ligands were prepared using [`ligand_processing.py`](./scripts), which uses **RDKit** to add hydrogen atoms and **Meeko** to convert structures to `.pdbqt` format (assigning atom types and charges):
+Ligands were prepared using [`ligand_processing.py`](./scripts/ligand_processing.py), which uses **RDKit** to add hydrogen atoms and **Meeko** to convert structures to `.pdbqt` format (assigning atom types and charges):
 
 ```bash
 python scripts/ligand_processing.py
@@ -177,7 +177,7 @@ This produces `.pdbqt` files of the docked poses for each ligand in the correspo
 
 ### 13. Extracting Binding Affinities
 
-Docking scores were compiled into a `.csv` file using [`extractenergy.py`](./scripts):
+Docking scores were compiled into a `.csv` file using [`extractenergy.py`](./scripts/extractenergy.py):
 
 ```bash
 python scripts/extractenergy.py
