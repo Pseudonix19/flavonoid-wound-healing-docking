@@ -100,7 +100,7 @@ All structures were obtained from the [RCSB Protein Data Bank](https://www.rcsb.
 
 ## Workflow
 
-*Simplified Workflow Diagram*
+*Simplified Workflow Diagram (created using [Excalidraw](https://excalidraw.com/))*
 ![workflow diagram](./protein%20cleaned/docking%20workflow.png)
 
 ### 1. Environment Setup
