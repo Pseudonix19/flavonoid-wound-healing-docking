@@ -100,6 +100,9 @@ All structures were obtained from the [RCSB Protein Data Bank](https://www.rcsb.
 
 ## Workflow
 
+*Simplified Workflow Diagram*
+![workflow diagram](./protein%20cleaned/docking%20workflow.png)
+
 ### 1. Environment Setup
 
 The project was performed in Ubuntu (WSL). The environment is set up using the provided [`environment.yml`](./environment.yml):
